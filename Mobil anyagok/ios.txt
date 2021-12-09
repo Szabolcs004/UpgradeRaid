@@ -1,0 +1,54 @@
+Az iOS elõnyei az Android hátrányaival szemben:
+teljesítmény egy iPad vagy iPhone eszköz általában folyékonyabbnak tûnik, mint egyes Android-eszközök. Ennek oka, hogy az iOS csak az Apple készülékekre vonatkozik, míg az Android-nak nagyon különbözõ sebességfokozatok és modellek sokaságához kell alkalmazkodnia (bár vannak optimalizált eszközök).
+ El iOS frissítési napló Jobb, mint az Android-on, hiszen ha nem Nexusról van szó, akkor a frissítéseket várakozással lehet várni, vagy meg kell találnia az életét, hogy frissítse a terminált az Android legújabb verziójával. Valami, ami nem történik meg az iOS-mel, az azonnal frissíti az összes eszközt.
+Az Apple App Store-ban lévõ alkalmazások általában rendelkeznek tisztább és szebb megjelenés mint az Android-alkalmazások általában. Ez nem azt jelenti, hogy az Android-alkalmazások rosszabbak, mivel Android-felhasználó vagyok, és nincs túl sok kifogásom ellene.
+Biztonsági másolat készítése az iCloud segítségével. Az Apple felhõ segít jobban menteni az adatait, az alkalmazásokat és mindent, ami a biztonsági mentéshez szükséges. Az Android rendszerben bár a Google-fiókok segítségével bizonyos tartalmakat elmenthet, a biztonság megõrzéséhez nem minden lehetséges ...
+Az Android elõnyei az iOS hátrányaival szemben:
+A szolgáltatókra vonatkozó korlátozások hardver és szoftver. Hasonlóképpen, az iOS egy zártabb rendszer.
+SD kártyák használhatók a legtöbb Android terminálon, hogy szükség esetén bõvíteni lehessen a tárolókapacitást, ami az Apple-ben lehetetlen.
+Az akkumulátor a legtöbb eszközben eltávolítható Az Android, bár ez nem lehetséges iPhone-on és iPad-en, ami különösen zavar, annak ellenére, hogy nem vagyok kritikus ...
+Bár korábban már mondtam, hogy az iCloud a mentések jobb eszközét jelenti, én is ezt mondom sok alkalmazás van az Android számára biztonsági másolatok készítéséreMíg az Apple választási szabadsága korlátozottabb (iTunes, iCloud, ...), bár ha hajlandó a Jailbreakre, akkor az iDevices-ben más lehetõségek is találhatók.
+ A kütyü Ezek még egy kiemelendõ adat, bár általában nem szoktam sokat használni, talán más felhasználóknak hiányozni fognak a másik rendszerbõl.
+Jelenleg mindkettõ uralja a piacot, úgy tûnik, hogy a Tizen nem veszi le, vagy teszi nagyon finom módon és bizonyos konkrét eszközökhöz, és már tudjuk, mi volt a Mozilla Firefox OS sorsa ... Azonban Az Ubuntu jó alternatíva lehet a jövõben mindkét rendszernek, de egyelõre meg kell elégednünk azzal, ami ott van.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tartalomjegyzék:
+Elõnyök
+Telefonválasztás
+Android App Market
+Nyitott rendszer
+Google Barátságos
+Hátrányok
+A tartozékok hiánya
+Érzékenyebb a vírusokra
+Az operációs rendszer által korlátozott alkalmazások
+Az Android egy olyan operációs rendszer, amelyet a Google üzemeltet, és közvetlenül az Apple iOS rendszerével versenyez. Az Androidon futó okostelefon elõnyeinek és hátrányainak megértése segít abban, hogy tájékozott döntést hozzon arról, hogy ez az Ön számára, vagy sem. Az Android egyes elõnyei közé tartozik a szoftverek és hardverek sokfélesége, a Google-barát tulajdonsága és a nyitható jellegük. Android telefonok is vannak hátrányok, mint például a sebezhetõség a malware és a tartozékok hiánya.
+
+----------------------
+Elõnyök
+Telefonválasztás
+Az Androidnak számos választási lehetõsége van a megvásárolni kívánt telefon típusától függõen - a csúcskategóriáról az olcsóvá. Néhány high-end Android telefon a Galaxy S6 Edge, a Google Nexus 6 és a Motorolla Moto Turbo. Alacsony végpontú Android telefonok közé tartozik a Huawei Snap To, Asus Zenfon 2 és Alacatel Onetouch Idol 3. Még az alacsony költségû Android telefonok is nagyszerûek, de nem egyeznek a magas rangú emberekkel, különösen akkor, ha a teljesítmény (végrehajtás sebessége), általános kilátások és tartósság. Az Android telefongyártók közé tartozik a HTC, a Samsung, a Sony Ericsson és a Lenovo, amely a Google tulajdonában van. Az iPhone-nak például csak egy telefonja van, így ha nem engedheti meg magának ezt a telefont, akkor nem lehet iPhone, ami nem az Android telefonok esetében.
+
+Android App Market
+Több ezer ingyenes alkalmazás telepíthetõ az Android telefonjára, például olyan webhelyeken, mint az Aptoide, az Amazon és a Google Play. Amikor egy Android alkalmazás összeomlik, a felhasználó az interneten könnyen keresheti a hibakódot, és magyarázatot kaphat arról, hogyan javítható. Elõfordulhat, hogy az iPhone-felhasználóknak meg kell várniuk, hogy a gyártó kiadja a hibajavítást, vagy törölje a problémás alkalmazást.
+
+Nyitott rendszer
+Az iOS-szal ellentétben, amely egy „zárolt” rendszer, amely szinte lehetetlen testreszabni, az Android egy nyitott rendszer, amely lehetõvé teszi a készülék testreszabását külsõ szoftverrel való integrálásával. Például a 2013-as Facebook otthoni szoftver lehetõvé tette az okostelefon-felhasználók számára, hogy telefonjaikat egy Facebook-témájú eszközre alakítsák át, de az iOS-felhasználók nem tudták integrálni a szoftvert, és nem tudták hozzáadni iPhone-hoz.
+
+Google Barátságos
+Mivel az Android egy Google-alapú operációs rendszer, szinte minden Android alapú okostelefon integrálva van a Google legnépszerûbb szolgáltatásaival, mint például a Gmail, a Google Reader, a Google Dokumentumok és a Hangouts.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HÁTRÁNYOK
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A tartozékok hiánya
+Annak ellenére, hogy a sok telefon rendelkezésre állása választási lehetõséget kínál, ez azt is jelenti, hogy kevesebb tartozék közül választhat. Az iPhone-val a tartozékgyártók tudják, hogy milyen stílusban és méretben állíthatók elõ olyan termékek, mint a telefonok és a töltõportok. De anélkül, hogy az Android telefonok ilyen egységesen lennének, a tartozékok sokkal korlátozottabbak.
+
+Érzékenyebb a vírusokra
+Az Android nyílt rendszere teszi érzékenyebbé a vírusokat, mint az iPhone (lásd az 1. hivatkozást). Az Android alkalmazással számos webhelyrõl tölthet le alkalmazásokat, amelyek közül néhányat olyan számítógépes bûnözõk hoznak létre, akik kártékony programokat terjesztenek. Az Apple csak lehetõvé teszi, hogy letöltse az App Store-ból származó alkalmazásokat, amelyek biztonsága szigorúan ellenõrzött, és a hackerek számára sokkal nehezebb behatolni.
+
+Érzékenyebb a vírusokra
+Az Android nyílt rendszere teszi érzékenyebbé a vírusokat, mint az iPhone (lásd az 1. hivatkozást). Az Android alkalmazással számos webhelyrõl tölthet le alkalmazásokat, amelyek közül néhányat olyan számítógépes bûnözõk hoznak létre, akik kártékony programokat terjesztenek. Az Apple csak lehetõvé teszi, hogy letöltse az App Store-ból származó alkalmazásokat, amelyek biztonsága szigorúan ellenõrzött, és a hackerek számára sokkal nehezebb behatolni.
+
+
