@@ -1,0 +1,54 @@
+Elõnyök és hátrányok: 
+	Biztonság
+	Stabilitás és Megbízhatóság
+	Gyorsaság
+	Erõforrás igény
+	Testre szabhatóság
+	Frissítések
+	Programok telepítése
+	Eszköz kompatibilitás
+	Ár
+	Elérhetõ szoftverek
+	Elérhetõ játékok
+
+Forrás: http://www.pchogyan.net/wp/mik-az-elonyei-es-hatranyai-a-linux-alapu-operacios-rendszereknek-a-windows-al-szemben/
+
+Legjobb disztribúciók (2021.08-hó felmérése szerint):
+
+1. Nitrux
+
+2. Zorin OS
+
+3. Pop! _OS
+
+4. Kodachi
+
+5. Rescatux
+
+6. Parrot Security
+
+7. Open Media Vault
+
+8. Porteus
+
+9. Manjaro
+
+10. Puppy Linux
+
+11. Arch Linux
+
+12. Solus
+
+13. NethServer
+
+14. OPNsense
+
+15. Raspberry Pi OS
+
+16. Ubuntu S erver
+
+17. DebianEdu / Skolelinux
+
+18. EasyOS 
+
+Forrás: https://www.hebergementweb.co/jobb/best-linux-distros-in-all-in-2021
