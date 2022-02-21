@@ -11,5 +11,14 @@ img {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
+}
+
+.rolunk {
+    padding: 150px;
+}
+
+#rolunk-kep {
+    margin-left: auto;
+    margin-right: auto;
 }
