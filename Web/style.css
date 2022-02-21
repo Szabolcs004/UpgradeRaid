@@ -9,3 +9,7 @@ img {
 .keret {
     background-color: royalblue;
 }
+
+p {
+    text-align: justify;
+}
