@@ -14,11 +14,18 @@ p {
     text-align: center;
 }
 
+.ajanlatok img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .rolunk {
     padding: 150px;
 }
 
 #rolunk-kep {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
