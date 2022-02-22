@@ -1,5 +1,12 @@
 body {
     background-color: cornflowerblue;
+    color: black;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 #hatter {
@@ -64,11 +71,13 @@ p {
     border: none;
     border-radius: 10px;
     box-shadow: 0 4px rgb(5, 11, 39);
-    position:sticky;
+    position: sticky;
 }
-  
-.button:hover {background-color: #0b1f3d}
-  
+
+.button:hover {
+    background-color: #0b1f3d
+}
+
 .button:active {
     background-color: rgb(4, 30, 49);
     box-shadow: 0 2px rgb(5, 11, 39);
