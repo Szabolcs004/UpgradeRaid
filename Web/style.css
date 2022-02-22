@@ -10,15 +10,6 @@ body {
     background-color: royalblue;
 }
 
-.ajanlatok img {
-    width: 300px;
-
-}
-
-.jobb {
-    text-align: right;
-}
-
 p {
     text-align: center;
 }
@@ -32,21 +23,23 @@ p {
     margin-right: auto;
 }
 
-.bal { text-align: left;
+.bal {
+    text-align: left;
 }
 
-.card{ background-color: cornflowerblue; background-repeat:no-repeat ;
-
+.card {
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
 }
 
-.monaco_img { margin-left: 50px;
-
+.monaco_img {
+    margin-left: 50px;
 }
 
-.egerszalok_img { margin-right: 50px;
-
+.egerszalok_img {
+    margin-right: 50px;
 }
 
-.ciprus_img { margin-left: 50px;
-
+.ciprus_img {
+    margin-left: 50px;
 }
