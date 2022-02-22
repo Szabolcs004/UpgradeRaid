@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark keret">
         <div class="container-fluid">
-            <a class="navbar-brand active" href="homepage.html">L-Trans</a>
+            <a class="navbar-brand active-navbar" href="homepage.html">L-Trans</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,13 +30,35 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 text-center">
-                <img id="hatter" src="pics/main_monaco_bg.jpg" class="img-fluid" alt="Monaco - kép">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="pics/monte_carlo.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="pics/egerszalok.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="pics/monte_carlo.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
             </div>
         </div>
-    </div>
-
     <div class="container-fluid ajanlatok">
         <div class="row">
             <div class="col-md-4">
@@ -52,7 +74,7 @@
                                     du Casino Állatkert Jardin des animalier, Hector Berlioz szobor emlékmű és a versenyzés területén Monacói Nagydíj. Zoo Monte Carlo kicsi, de jól karbantartott. Különösen a gyermekek számára. A műemlék és egy kis kert
                                     található, közvetlenül a Monte Carlo kaszinó, így a látogatás ezeken a helyeken mono belül elérhető.</p>
                             </div>
-                            <button type="button" class="btn btn-primary"><a href="monaco.html">Továbbiak</a></button>
+                            <button type="button" class="button"><a href="monaco.html">Továbbiak</a></button>
                         </div>
                     </div>
                 </div>
@@ -60,6 +82,9 @@
             <div class="col-md-4">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="egerszalok_img img-fluid" src="pics/egerszalok.jpg" alt="Egerszalók">
+                        </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Egerszalók</h5>
@@ -67,17 +92,14 @@
                                     Nemzeti Parkban látható ehhez hasonló természeti képződmény. WELLNESS 1.900 m2 vízfelület, 17 kül- és beltéri medence, gyógyvizes medencék napi vízcserével, exkluzív Szaunavilág kültéri
                                     rönkfa szaunákkal és folyamatos, különleges szaunaceremóniákkal.
                                 </p>
-                                <button type="button" class="btn btn-primary"><a href="egerszalok.html">Továbbiak</a></button>
+                                <button type="button" class="button"><a href="egerszalok.html">Továbbiak</a></button>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <img class="egerszalok_img img-fluid" src="pics/egerszalok.jpg" alt="Egerszalók">
-                        </div>
+                       
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
+    
             <div class="col-md-4">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
@@ -90,7 +112,7 @@
                                 <p class="card-text">Páfosz (Paphos) Páfosz ciprus délnyugati részének turisztikai központja: több ezer éves ókori emlékei, strandjai, és a közelben fekvó természeti látnivalók mitt keresik fel legtöbben. A település kb. kétezer évvel ezelött
                                     a sziget központja is volt, innen kormányozták a környezó régiókat. Az Afrodité varosaként is elhiresült Páfosz napjainkra modern, ám mégis hangulatos kisvárossá vált, tengerparti sétányokkal, bárokkal, tavernákkal.
                                 </p>
-                                <button type="button" class="btn btn-primary"><a href="cyprus.html">Továbbiak</a></button>
+                                <button type="button" class="button"><a href="cyprus.html">Továbbiak</a></button>
                             </div>
                         </div>
                     </div>
@@ -133,9 +155,38 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark keret">
         <div class="container-fluid">
-            <a class="navbar-brand active" href="homepage.html">L-Trans</a>
+            <a class="navbar-brand active-navbar" href="homepage.html">L-Trans</a>
         </div>
     </nav>
 </body>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
 
 </html>
