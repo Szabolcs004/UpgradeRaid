@@ -11,7 +11,8 @@ body {
 }
 
 .ajanlatok img {
-    width: 200px;
+    width: 300px;
+
 }
 
 .jobb {
@@ -29,4 +30,23 @@ p {
 #rolunk-kep {
     margin-left: auto;
     margin-right: auto;
+}
+
+.bal { text-align: left;
+}
+
+.card{ background-color: cornflowerblue; background-repeat:no-repeat ;
+
+}
+
+.monaco_img { margin-left: 50px;
+
+}
+
+.egerszalok_img { margin-right: 50px;
+
+}
+
+ciprus_img { margin-left: 50px;
+
 }
