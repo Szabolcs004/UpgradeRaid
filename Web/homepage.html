@@ -33,18 +33,18 @@
         <div class="slideshow-container">
 
             <div class="mySlides ">
-              <div class="numbertext">1 / 6</div>
-              <img src="pics/monte_carlo.jpg" style="width:100%">
+                <div class="numbertext">1 / 6</div>
+                <img src="pics/monte_carlo.jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides ">
-              <div class="numbertext">2 / 6</div>
-              <img src="pics/egerszalok.jpg" style="width:100%">
+                <div class="numbertext">2 / 6</div>
+                <img src="pics/egerszalok.jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides ">
-              <div class="numbertext">3 / 6</div>
-              <img src="pics/páfosz.jpg" style="width:100%">
+                <div class="numbertext">3 / 6</div>
+                <img src="pics/páfosz.jpg" style="width:100%">
             </div>
 
             <div class="mySlides ">
@@ -56,7 +56,7 @@
                 <div class="numbertext">5 / 6</div>
                 <img src="pics/images_1.jfif" style="width:100%">
             </div>
-            
+
             <div class="mySlides ">
                 <div class="numbertext">6 / 6</div>
                 <img src="pics/letoltes.jfif" style="width:100%">
@@ -64,16 +64,19 @@
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
+
         </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
     <div class="container-fluid ajanlatok">
         <div class="row">
             <div class="col-md-4">
@@ -89,7 +92,7 @@
                                     du Casino Állatkert Jardin des animalier, Hector Berlioz szobor emlékmű és a versenyzés területén Monacói Nagydíj. Zoo Monte Carlo kicsi, de jól karbantartott. Különösen a gyermekek számára. A műemlék és egy kis kert
                                     található, közvetlenül a Monte Carlo kaszinó, így a látogatás ezeken a helyeken mono belül elérhető.</p>
                             </div>
-                            <button type="button" class="button"><a href="monaco.html">Továbbiak</a></button>
+                            <a href="monaco.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Részletek</a>
                         </div>
                     </div>
                 </div>
@@ -104,17 +107,17 @@
                             <div class="card-body">
                                 <h5 class="card-title">Egerszalók</h5>
                                 <p class="card-text">Egerszalók igazi nevezetessége, a környék szimbóluma és védjegye a Sódomb, amelyet az 1961-ben fúrt kút hévizforrása épített. Európában egyedülálló, a világon még két helyen, a törökországi Pamukkaléban és az amerikai Yellowstone
-                                    Nemzeti Parkban látható ehhez hasonló természeti képződmény. WELLNESS 1.900 m2 vízfelület, 17 kül- és beltéri medence, gyógyvizes medencék napi vízcserével, exkluzív Szaunavilág kültéri
-                                    rönkfa szaunákkal és folyamatos, különleges szaunaceremóniákkal.
+                                    Nemzeti Parkban látható ehhez hasonló természeti képződmény. WELLNESS 1.900 m2 vízfelület, 17 kül- és beltéri medence, gyógyvizes medencék napi vízcserével, exkluzív Szaunavilág kültéri rönkfa szaunákkal és folyamatos,
+                                    különleges szaunaceremóniákkal.
                                 </p>
-                                <button type="button" class="button"><a href="egerszalok.html">Továbbiak</a></button>
+                                <a href="egerszalok.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Részletek</a>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
-    
+
             <div class="col-md-4">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
@@ -127,7 +130,7 @@
                                 <p class="card-text">Páfosz (Paphos) Páfosz ciprus délnyugati részének turisztikai központja: több ezer éves ókori emlékei, strandjai, és a közelben fekvó természeti látnivalók mitt keresik fel legtöbben. A település kb. kétezer évvel ezelött
                                     a sziget központja is volt, innen kormányozták a környezó régiókat. Az Afrodité varosaként is elhiresült Páfosz napjainkra modern, ám mégis hangulatos kisvárossá vált, tengerparti sétányokkal, bárokkal, tavernákkal.
                                 </p>
-                                <button type="button" class="button"><a href="cyprus.html">Továbbiak</a></button>
+                                <a href="cyprus.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Részletek</a>
                             </div>
                         </div>
                     </div>
@@ -178,30 +181,34 @@
 <script>
     var slideIndex = 1;
     showSlides(slideIndex);
-    
+
     function plusSlides(n) {
-      showSlides(slideIndex += n);
+        showSlides(slideIndex += n);
     }
-    
+
     function currentSlide(n) {
-      showSlides(slideIndex = n);
+        showSlides(slideIndex = n);
     }
-    
+
     function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
     }
-    </script>
+</script>
 
 </html>
