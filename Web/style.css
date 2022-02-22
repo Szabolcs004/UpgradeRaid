@@ -44,19 +44,9 @@ p {
 .card {
     background-color: cornflowerblue;
     background-repeat: no-repeat;
+    min-height: 250px
 }
 
-.Monaco_img {
-    margin-left: 50px;
-}
-
-.egerszalok_img {
-    margin-right: 50px;
-}
-
-.ciprus_img {
-    margin-left: 50px;
-}
 
 .button {
     display: inline-block;
@@ -172,4 +162,8 @@ img {vertical-align: middle;}
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.card-body { min-height: 250px
+
 }
