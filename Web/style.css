@@ -2,12 +2,20 @@ body {
     background-color: cornflowerblue;
 }
 
-img {
-    height: 50%;
+#hatter {
+    height: 75%;
 }
 
 .keret {
     background-color: royalblue;
+}
+
+.ajanlatok img {
+    width: 200px;
+}
+
+.jobb {
+    text-align: right;
 }
 
 p {
